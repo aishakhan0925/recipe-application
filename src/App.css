@@ -1,38 +1,59 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
   min-height: 100vh;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "Aclonica", sans-serif;
+  font-style: bold;
+  color: black;
+}
+p {
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  color: rgb(10, 1, 1);
+}
+li {
+  font-family: "Yeseva One", cursive;
+}
+
+.search-form {
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 50px;
+}
+.search-bar {
+  width: 50%;
+  padding: 8px;
+  border: none;
+  margin-top: 20px;
+  outline: none;
+  color: #f78ca0;
+  border-radius: 10px;
+}
+.search-button {
+  background-color: lightcoral;
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  margin-top: 20px;
+  outline: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.recipe {
+  width: 100%;
+  height: auto;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 10px;
 }
