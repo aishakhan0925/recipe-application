@@ -58,6 +58,7 @@ export const Main = () => {
           className="search-bar"
           value={search}
           onChange={updateSearch}
+          placeholder="Search Your Dishes Here!"
         />
         <button className="search-button" type="submit">
           <h4>Search</h4>

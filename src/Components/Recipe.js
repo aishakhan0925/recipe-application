@@ -2,7 +2,6 @@ import React from "react";
 import "../App.css";
 import {
   Card,
-  CardImg,
   CardText,
   CardBody,
   CardTitle,
